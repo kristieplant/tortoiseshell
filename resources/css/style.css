@@ -1,6 +1,5 @@
 html {
   font-size: 18px;
-  line-height: 1.4px;
 }
 
 body {
@@ -93,6 +92,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
   }
 
 .services {
@@ -100,6 +101,7 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 960px;
+  text-align: center;
 }
 .exams {
   display: inline-flex;
@@ -111,6 +113,8 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-right: 3rem;
+  text-align: center;
+  font-family: helvetica;
 }
 .fittings {
   display: inline-flex;
@@ -123,6 +127,8 @@ body {
   padding-bottom: 3rem;
   margin-right: 3rem;
   margin-left: 3rem;
+  text-align: center;
+  font-family: helvetica;
 }
 .delivery {
   display: inline-flex;
@@ -134,11 +140,12 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-left: 3rem;
+  font-family: helvetica;
 }
 
 .philosophy-appointments {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   width: 960px;
 }
 .philosophy h1 {
@@ -174,6 +181,9 @@ body {
   flex-direction: column;
 }
 
+
+
+
 .footer {
   display: flex;
   align-items: center;
@@ -189,6 +199,6 @@ body {
 .footer .copyright img {
   padding-left: 1rem;
 }
-.footer .copywright span {
+.footer span {
   font-family: helvetica;
 }
