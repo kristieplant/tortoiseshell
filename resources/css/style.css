@@ -1,0 +1,194 @@
+html {
+  font-size: 18px;
+  line-height: 1.4px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.banner .container {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navigation .logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation .logo img {
+  padding-right: .5rem;
+  line-height: 1rem;
+}
+
+.navigation .logo span {
+  padding-left: .5rem
+  line-height: 1rem;
+}
+
+.navigation .menu {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation .menu p {
+  margin-right: 2rem;
+}
+.banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+.banner-text p {
+  font-family: helvetica;
+  background-color: white;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+  margin-top: 10rem;
+}
+
+
+
+
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 960px;
+}
+.exams {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-right: 3rem;
+}
+.fittings {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.delivery {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.philosophy-appointments {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+}
+.philosophy h1 {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: cadetblue;
+    padding: .5rem 1.25rem .5rem 1.25rem;
+    color: white;
+}
+.appointments h1 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: .5rem 1.25rem .5rem 1.25rem;
+  color: white;
+}
+.philosophy p {
+  font-family: helvetica;
+}
+.appointments p {
+  font-family: helvetica;
+}
+.philosophy {
+  display: inline-flex;
+  width: 35%;
+  flex-direction: column;
+}
+.appointments {
+  display: inline-flex;
+  width: 35%;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+  flex-direction: row;
+}
+.footer .copyright {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
+.footer .copyright img {
+  padding-left: 1rem;
+}
+.footer .copywright span {
+  font-family: helvetica;
+}
